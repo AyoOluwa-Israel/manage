@@ -1,0 +1,179 @@
+@font-face{
+    font-family: vietnam;
+    src: url(../fonts/BeVietnam-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: vietnam;
+    background-color: hsl(0, 0%, 98%);
+}
+
+/* Menu starts here */
+header{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+}
+.menu_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+.menu_list{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    width: 500px;
+}
+.list{
+    text-decoration: none;
+    color: hsl(228, 39%, 23%);
+}
+.get_started1{
+    width: 100px;
+    height: 40px;
+    background-color: hsl(12, 88%, 59%);
+    color: white;
+    border-radius: 10px; 
+    text-align: center;
+    padding-top: 7px; 
+}
+/* Menu ends here */
+
+
+
+/* First section status starts here */
+
+.sec_1{
+   display: flex;
+   justify-content: center; 
+   padding-top: 100px;
+   align-items: center;
+}
+
+.intro_div{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 600px;
+    align-items: center;
+    margin: auto;
+}
+.intro_word{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 512px;
+}
+.bring{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 64px;
+    color: hsl(228, 39%, 23%);
+}
+
+.manage{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 24px;
+    color: hsl(227, 12%, 61%);
+    width: 512px;
+}
+.get_started_2{
+    background-color: hsl(12, 88%, 59%);
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    padding-top: 7px;
+    margin-top: 24px;
+    font-size: 16px;
+}
+.btn_1{
+    
+}
+
+/* First section ends here */
+
+/* Second section starts here */
+.sec_2{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+}
+.question{
+    display: flex;
+    flex-direction: column;
+}
+.what{
+    font-size: 38px;
+    color: hsl(228, 39%, 23%);
+    font-weight: 700;
+    line-height: 48px;
+    width: 420px;
+}
+.what_description{
+    margin-top: 40px;
+    color: hsl(227, 12%, 61%);
+}
+.cards{
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    flex-direction: column;
+    
+}
+.num_div{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+.num{
+    width: 50px;
+    height: 30px;
+    background-color: hsl(12, 88%, 59%);
+    text-align: center;
+    border-radius: 20px;
+    color: hsl(0, 0%, 98%);
+    padding-top: 2px;
+    font-weight: 700;
+}
+
+.div_topic{
+    font-weight: 700;
+    color: hsl(228, 39%, 23%);
+    margin-left: 20px;
+}
+
+.div_words{
+    color: hsl(227, 12%, 61%);
+    margin-left: 70px;
+    width: 430px;
+    height: 100px;
+}
+
+/* Second section ends here */
+
+/* Third section starts here */
+.sec_3_topic{
+    color: hsl(228, 39%, 23%);
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+}
+
+/* Third section ends here */

@@ -1,0 +1,164 @@
+@media only screen and (max-width:767px){
+
+
+
+    .intro_div {
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        height: 600px;
+        align-items: center;
+        flex-direction: column-reverse;
+        margin-top: 2em;
+    }
+    .intro_picture img{
+        width: auto;
+        height: 300px;
+    }
+    .sec_2 {
+        flex-direction: column;
+    }
+
+    .div_words {
+        margin-left: 0;
+        width: 415px;
+    }
+
+    .num_div {
+        display: flex;
+        background-color: hsl(13, 100%, 96%);
+    }
+
+    .sec_3_topic{
+        font-size: 28px;
+    }
+
+    .bring {
+        font-weight: 900;
+        font-size: 46px;
+        line-height: 64px;
+        
+        text-align: center;
+    }
+    .intro_word{
+        margin: auto;
+    }
+
+    .manage {
+      
+        width: 512px;
+        text-align: center;
+    }
+
+    .menu_list{
+        display: none;
+    }
+
+    .cards{
+        align-items: center;
+    }
+
+
+.question {
+   
+    margin: auto;
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center;
+}
+.what{
+    font-size: 48px;
+}
+.get_started_2 {
+    margin: auto;
+}
+
+
+}
+
+
+/* Small phone from 0 to 480px */
+@media only screen and (max-width:480px){
+
+    .intro_div {
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        height: 600px;
+        align-items: center;
+        flex-direction: column-reverse;
+        margin-top: 2em;
+    }
+    .intro_picture img{
+        width: auto;
+        height: 300px;
+    }
+
+    .sec_2 {
+        flex-direction: column;
+    }
+
+    .div_words {
+        margin-left: 0;
+        width: 415px;
+    }
+
+    .num_div {
+        display: flex;
+        background-color: hsl(13, 100%, 96%);
+    }
+
+    .sec_3_topic{
+        font-size: 28px;
+    }
+
+    .bring {
+        font-weight: 900;
+        font-size: 46px;
+        line-height: 64px;
+        
+        text-align: center;
+    }
+    .intro_word{
+        margin: auto;
+    }
+
+    .manage {
+      
+        width: 512px;
+        text-align: center;
+    }
+
+    .menu_list{
+        display: none;
+    }
+
+    .cards{
+        align-items: center;
+    }
+
+}
+.question {
+   
+    margin: auto;
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center;
+}
+.what{
+    font-size: 48px;
+}
+
+.sec_1 {
+    display: flex;
+    justify-content: unset;
+    padding-top: 100px;
+    align-items: center;
+    margin: auto;
+}
+.get_started_2 {
+    margin: auto;
+}
+
+
+}
