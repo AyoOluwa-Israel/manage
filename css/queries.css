@@ -14,6 +14,7 @@
     .intro_picture img{
         width: auto;
         height: 300px;
+        margin-left: 120px;
     }
     .sec_2 {
         flex-direction: column;
@@ -41,7 +42,7 @@
         text-align: center;
     }
     .intro_word{
-        margin: auto;
+       margin-right: -120px;
     }
 
     .manage {
@@ -72,7 +73,10 @@
 .get_started_2 {
     margin: auto;
 }
-
+.side_question {
+    margin: auto;
+    margin-left: -30px;
+}
 
 }
 
@@ -99,8 +103,9 @@
     }
 
     .div_words {
-        margin-left: 0;
+        
         width: 415px;
+        text-align: center;
     }
 
     .num_div {
@@ -119,9 +124,7 @@
         
         text-align: center;
     }
-    .intro_word{
-        margin: auto;
-    }
+    
 
     .manage {
       
@@ -138,13 +141,7 @@
     }
 
 }
-.question {
-   
-    margin: auto;
-    /* justify-content: center; */
-    /* align-items: center; */
-    text-align: center;
-}
+
 .what{
     font-size: 48px;
 }

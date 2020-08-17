@@ -136,6 +136,12 @@ header{
     flex-direction: column;
     
 }
+.side_question{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .num_div{
     display: flex;
     flex-direction: row;
