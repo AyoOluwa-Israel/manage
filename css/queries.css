@@ -13,8 +13,13 @@
     }
     .intro_picture img{
         width: auto;
-        height: 300px;
-        margin-left: 120px;
+        height: 300px; 
+    }
+    .intro_picture {
+        animation: animate 3s;
+        animation-iteration-count: infinite;
+        box-shadow: 0 1px 4px 0 hsl(12, 88%, 59%), 0 6px 10px 0 hsl(12, 88%, 59%);
+        margin-left: 108px;
     }
     .sec_2 {
         flex-direction: column;

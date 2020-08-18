@@ -39,14 +39,20 @@ header{
     color: hsl(228, 39%, 23%);
 }
 .get_started1{
-    width: 100px;
+    width: 120px;
     height: 40px;
     background-color: hsl(12, 88%, 59%);
     color: white;
-    border-radius: 10px; 
+    border-radius: 10px;
     text-align: center;
-    padding-top: 7px; 
+    padding-top: 7px;
+     cursor: pointer;
 }
+.get_started1:active {
+      background-color: hsl(12, 88%, 59%);
+      box-shadow: 0 5px 5px #666;
+      transform: translateY(4px);
+    }
 /* Menu ends here */
 
 
@@ -55,10 +61,51 @@ header{
 
 .sec_1{
    display: flex;
-   justify-content: center; 
+   justify-content: center;
    padding-top: 100px;
    align-items: center;
+  
 }
+.intro_picture{
+    animation: animate 3s;
+    animation-iteration-count: infinite;
+    box-shadow: 0 1px 4px 0  hsl(12, 88%, 59%), 
+    0 6px 10px 0  hsl(12, 88%, 59%);
+}
+.intro_picture:hover{
+  /* animation-name: shake;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite; */
+
+  
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+@keyframes animate{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-20px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+/* @keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+} */
+
 
 .intro_div{
     display: flex;
@@ -92,7 +139,7 @@ header{
     background-color: hsl(12, 88%, 59%);
     color: white;
     border-radius: 10px;
-    width: 100px;
+    width: 120px;
     height: 40px;
     text-align: center;
     padding-top: 7px;
@@ -100,7 +147,7 @@ header{
     font-size: 16px;
 }
 .btn_1{
-    
+
 }
 
 /* First section ends here */
@@ -134,7 +181,7 @@ header{
     justify-content: space-between;
     margin-bottom: 40px;
     flex-direction: column;
-    
+
 }
 .side_question{
     display: flex;
