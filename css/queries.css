@@ -28,6 +28,7 @@
   .div_words {
     margin-left: 0;
     width: 415px;
+    text-align: center;
   }
 
   .num_div {
@@ -78,11 +79,10 @@
     margin: auto;
     margin-top: 35px;
 }
-  }
 
   .side_question {
     margin: auto;
-    margin-left: -30px;
+    margin-left: -40px;
   }
   .testimonial {
     flex-direction: column;
@@ -103,6 +103,10 @@
 .div_topic {
     font-weight: 1000;
     font-size: 20px;
+}
+.testimonial {
+    flex-direction: column;
+    margin-top: 20px;
 }
 
 }
@@ -161,7 +165,7 @@
   .cards {
     align-items: center;
   }
-}
+
 
 .what {
   font-size: 48px;
