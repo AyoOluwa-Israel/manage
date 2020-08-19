@@ -76,7 +76,8 @@
 
   .get_started_2 {
     margin: auto;
-    margin-top: 30px;
+    margin-top: 35px;
+}
   }
 
   .side_question {
@@ -174,7 +175,5 @@
   margin: auto;
 }
 
-.get_started_2 {
-  margin: auto;
-}
+
 }
