@@ -20,6 +20,13 @@ header{
     position: absolute;
     z-index: 3;
     width: 100%;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+    transition: width 2s, height 2s, transform 2s;
+}
+header:hover{
+    transform: rotate(5deg); 
+    
 }
 .menu_header{
     display: flex;
@@ -120,6 +127,11 @@ header{
     flex-direction: column;
     justify-content: center;
     width: 512px;
+    transition-duration: 2s;
+}
+.intro_word:hover{
+    transform: skewX(10deg);
+    
 }
 .bring{
     font-weight: 700;
